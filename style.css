@@ -4,6 +4,37 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+.caption {
+    font: 
+}
+
+/* Styling inputs with type="text" and textareas */
+input [type=text], textarea {
+    width: 75%;
+    padding: 12px;
+    border: 1px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    resize: vertical;
+}
+
 /* For styling the submit button */
+input [type=submit] {
+    width: 50px;
+    background-color: orange;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
 
+/* Adding background color and padding around the form */
+.container {
+    border-radius: 5px;
+    background-color:rgb(206, 227, 247);
+    padding: 20px;
+}
 
+border-top: 2px solid red;
