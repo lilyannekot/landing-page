@@ -48,8 +48,12 @@ input [type=submit] {
     padding: 20px;
 }
 
-a:link{
+a:link {
     color: white
+}
+
+.text-width{
+    width: 75%;
 }
 
 footer {
